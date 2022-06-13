@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+
+<body>
+    <h1>HTML Table</h1>
+    <table border="1px" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>PAUDYAL PRADIP KUMAR</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>SOTO PELLOT MIGUEL ANGEL</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>RAJBANSHI PARIKSHIT</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+
+    <br>
+
+    <table border="1px" cellspacing="0">
+        <tr>
+            <th colspan="3">Name</th>
+        </tr>
+
+        <tr>
+            <td>First Name</td>
+            <td>Middle Name</td>
+            <td>Last Name</td>
+        </tr>
+
+        <tr>
+            <td>MIGUEL ANGEL</td>
+            <td></td>
+            <td>SOTO PELLOT</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1px" cellspacing="0">
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Age</th>
+        </tr>
+
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+
+        <tr>
+            <td>MIGUEL ANGEL</td>
+            <td>SOTO PELLOT</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1px" cellspacing="0">
+        <caption>Time-Table</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Day</th>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Subject</th>
+            </tr>
+
+            <tr>
+                <th>Start Time</th>
+                <th>End Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Mon</td>
+                <td>9:30</td>
+                <td>13:30</td>
+                <td>HTML & CSS</td>
+            </tr>
+
+            <tr>
+                <td>Tue</td>
+                <td>9:30</td>
+                <td>13:30</td>
+                <td>ITF+</td>
+            </tr>
+
+            <tr>
+                <td>Sat</td>
+                <td colspan="3" rowspan="2">Free Time</td>
+            </tr>
+
+            <tr>
+                <td>Sun</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
